@@ -5,10 +5,10 @@
         </a>
         <ul class="nav-list">
             <li class="nav-items">
-                <a href="/about" class="nav-links">Home</a>
+                <a href="/index" class="nav-links">Home</a>
             </li>
             <li class="nav-items">
-                <a href="/product" class="nav-links">Belanja</a>
+                <a href="/belanja" class="nav-links">Belanja</a>
             </li>
             <li class="nav-items">
                 <a href="/contact" class="nav-links">About</a>
