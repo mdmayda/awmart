@@ -39,6 +39,7 @@
 <script src="/js/dashboardHome.js"></script>
 <script src="/js/bootstrap.bundle.min.js"></script>
 <script src="/js/productDetails.js"></script>
+<script src="/js/pemesanan.js"></script>
 </script>
 
 

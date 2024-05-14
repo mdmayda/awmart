@@ -27,7 +27,7 @@
                     <div class="card-body">
                         <h5 class="card-title">Taro</h5>
                         <p class="card-text">Deskripsi singkat produk.</p>
-                        <p class="card-text">Harga: Rp 2000</p>
+                        <p class="card-text">Harga: Rp 4000</p>
                     </div>
                 </div>
             </a>
@@ -35,20 +35,20 @@
         <!-- Card 2 -->
         <div class="col">
             <div class="card shadow">
-                <img src="/images/hazel.jpg" class="card-img-top" alt="Product 2">
+                <img src="/images/chitato.png" class="card-img-top" alt="Product 2">
                 <div class="card-body">
-                    <h5 class="card-title">Taro</h5>
+                    <h5 class="card-title">Chitato</h5>
                     <p class="card-text">Deskripsi singkat produk.</p>
-                    <p class="card-text">Harga: $150</p>
+                    <p class="card-text">Harga: Rp 5000</p>
                 </div>
             </div>
         </div>
         <!-- Card 3 -->
         <div class="col">
             <div class="card shadow">
-                <img src="/images/taro.png" class="card-img-top" alt="Product 2">
+                <img src="/images/chitatolite.png" class="card-img-top" alt="Product 2">
                 <div class="card-body">
-                    <h5 class="card-title">Taro</h5>
+                    <h5 class="card-title">Chitato Lite</h5>
                     <p class="card-text">Deskripsi singkat produk.</p>
                     <p class="card-text">Harga: $150</p>
                 </div>
@@ -56,9 +56,9 @@
         </div>
         <div class="col">
             <div class="card shadow">
-                <img src="/images/taro.png" class="card-img-top" alt="Product 2">
+                <img src="/images/fr2000.png" class="card-img-top" alt="Product 2">
                 <div class="card-body">
-                    <h5 class="card-title">Taro</h5>
+                    <h5 class="card-title">French Fries2000</h5>
                     <p class="card-text">Deskripsi singkat produk.</p>
                     <p class="card-text">Harga: $150</p>
                 </div>

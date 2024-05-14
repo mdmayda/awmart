@@ -28,4 +28,6 @@ Route::get('/dashboard-admin', function () {
 Route::get('/product-details', function () {
     return view('content.productDetails');
 });
-
+Route::get('/pemesanan', function () {
+    return view('content.pemesanan');
+});
