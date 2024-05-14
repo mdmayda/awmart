@@ -19,21 +19,3 @@ Route::get('/', function () {
 Route::get('/index', function () {
     return view('content.index');
 });
-Route::get('/dashboardHome', function () {
-    return view('content.admin.dashboardHome');
-});
-Route::get('/dashboardProduct', function () {
-    return view('content.admin.dashboardProduct');
-});
-Route::get('/dashboardShipment', function () {
-    return view('content.admin.dashboardShipment');
-});
-Route::get('/dashboardMember', function () {
-    return view('content.admin.dashboardMember');
-});
-Route::get('/dashboardAccount', function () {
-    return view('content.admin.dashboardAccount');
-});
-Route::get('/produkDetail', function () {
-    return view('content.productDetail');
-});

@@ -19,7 +19,7 @@
             <img src="/images/image.jpeg" class="d-block w-100 c-img" alt="slide2">
         </div>
         <div class="carousel-item c-item">
-            <img src="/images/image2.jpeg" class="d-block w-100 c-img" alt="slide3">
+            <img src="/images/hazel.jpg" class="d-block w-100 c-img" alt="slide3">
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
