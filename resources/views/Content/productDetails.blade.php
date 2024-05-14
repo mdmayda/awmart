@@ -12,7 +12,7 @@
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/index">Home</a></li>
             <li class="breadcrumb-item"><a href="/belanja">Belanja</a></li>
-            <li class="breadcrumb-item active" aria-current="page">Product Name</li>
+            <li class="breadcrumb-item active" aria-current="page">Product Details</li>
         </ol>
     </nav>
 </div>
@@ -37,24 +37,19 @@
                 <div class="card-body d-flex flex-column justify-content-center align-items-center">
                     <!-- Tombol + dan - untuk jumlah produk -->
                     <div class="mb-3 d-flex justify-content-center align-items-center">
-                        <button class="btn btn-sm"
-                            style="background-color: white; color: black; border: 1px solid black; border-radius: 10px;"
-                            id="minusBtn">-</button>
+                        <button class="btn btn-sm" style="background-color: white; color: black; border: 1px solid black; border-radius: 10px;" id="minusBtn">-</button>
                         <input type="text" class="form-control text-center mx-2" value="1" id="quantityInput">
-                        <button class="btn btn-sm"
-                            style="background-color: white; color: black; border: 1px solid black; border-radius: 10px;"
-                            id="plusBtn">+</button>
+                        <button class="btn btn-sm" style="background-color: white; color: black; border: 1px solid black; border-radius: 10px;" id="plusBtn">+</button>
                     </div>
                     <!-- Stok tersisa -->
                     <p class="mb-2" style="color: black;">Stock Available: 10</p>
                     <!-- Tombol ke keranjang dengan icon -->
-                    <button class="btn btn-primary btn-sm mb-4"
-                        style="width: 90%; background-color: white; color: black; border: 1px solid black; border-radius: 10px;"><i
-                            class="bi bi-cart-fill" style="color: black;"></i> Add to Cart</button>
+                    <button class="btn btn-primary btn-sm mb-4" style="width: 90%; background-color: white; color: black; border: 1px solid black; border-radius: 10px;"><i class="bi bi-cart-fill" style="color: black;"></i> Add to Cart</button>
                     <!-- Tombol beli langsung dengan icon -->
-                    <button class="btn btn-success btn-sm"
-                        style="width: 90%; background-color: white; color: black; border: 1px solid black; border-radius: 10px;"><i
-                            class="bi bi-bag-check" style="color: black;"></i> Buy Now</button>
+                    <a href="/buy" class="btn btn-success btn-sm" style="width: 90%; background-color: white; color: black; border: 1px solid black; border-radius: 10px; text-decoration: none;">
+                        <i class="bi bi-bag-check" style="color: black;"></i> Buy Now
+                    </a>
+
                     <!-- Subtotal -->
                     <p class="mt-2" id="subtotal" style="color: black;">Subtotal: $100</p>
                 </div>
