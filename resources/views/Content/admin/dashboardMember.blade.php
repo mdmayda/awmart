@@ -2,75 +2,27 @@
 
 @section('content')
 
-<!-- SIDEBAR -->
-<section id="sidebar">
-    <div class="sidebar-brand">
-        <h2>aw mart</h2>
-    </div>
-    
-    <ul class="side-menu top">
-        <li class="active">
-            <a href="#">
-                <i class='bx bxs-dashboard' ></i>
-                <span class="text">Dashbaord</span>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <i class='bx bxs-cart-add' ></i> <!-- Mengganti ikon menjadi keranjang belanja -->
-                <span class="text">Products</span>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <i class='bx bxs-truck' ></i> <!-- Mengganti ikon menjadi truk -->
-                <span class="text">Shipment</span>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <i class='bx bxs-user' ></i> <!-- Mengganti ikon menjadi pengguna -->
-                <span class="text">Member</span>
-            </a>
-        </li>
-    
-    </ul>
-    <ul class="side-menu">
-        <li>
-            <a href="#">
-                <i class='bx bxs-cog' ></i>
-                <span class="text">Account</span>
-            </a>
-        </li>
-        <li>
-            <a href="#" class="logout">
-                <i class='bx bxs-log-out-circle' ></i>
-                <span class="text">Logout</span>
-            </a>
-        </li>
-    </ul>
-</section>
-<!-- SIDEBAR -->
+@extends('Component.sidebar')
 
 <!-- CONTENT -->
 <section id="content">
-    <!-- NAVBAR -->
-    <nav>
-        <form action="#">
-            <div class="form-input">
-                <input type="search" placeholder="Search...">
-                <button type="submit" class="search-btn"><i class='bx bx-search' ></i></button>
-            </div>
-        </form>
-        <a href="#" class="notification">
-            <i class='bx bxs-bell' ></i>
-            <span class="num">8</span>
-        </a>
-        <a href="#" class="profile">
-            <img src="img/people.png">
-        </a>
-    </nav>
-    <!-- NAVBAR -->
+ <!-- NAVBAR -->
+ <nav>
+    <form action="#">
+        <div class="form-input">
+            <input type="search" placeholder="Search...">
+            <button type="submit" class="search-btn"><i class='bx bx-search' ></i></button>
+        </div>
+    </form>
+    <a href="#" class="notification">
+        <i class='bx bxs-bell' ></i>
+        <span class="num">8</span>
+    </a>
+    <a href="#" class="profile">
+        <img src="/images/profile.jpg">
+    </a>
+</nav>
+<!-- NAVBAR -->
 
 <!-- MAIN -->
 <main>
@@ -106,7 +58,7 @@
             <tbody>
                 <tr>
                     <td>1</td>
-                    <td>John Doe</td>
+                    <td>Mayda</td>
                     <td><span class="status-active">Active</span></td>
                     <td>
                         <a href="#" class="btn btn-sm btn-primary">Edit</a>
@@ -115,8 +67,26 @@
                 </tr>
                 <tr>
                     <td>2</td>
-                    <td>Jane Smith</td>
+                    <td>Yafi</td>
                     <td><span class="status-inactive">Inactive</span></td>
+                    <td>
+                        <a href="#" class="btn btn-sm btn-primary">Edit</a>
+                        <a href="#" class="btn btn-sm btn-danger">Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Dafa</td>
+                    <td><span class="status-inactive">Inactive</span></td>
+                    <td>
+                        <a href="#" class="btn btn-sm btn-primary">Edit</a>
+                        <a href="#" class="btn btn-sm btn-danger">Delete</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>Geryl</td>
+                    <td><span class="status-active">active</span></td>
                     <td>
                         <a href="#" class="btn btn-sm btn-primary">Edit</a>
                         <a href="#" class="btn btn-sm btn-danger">Delete</a>

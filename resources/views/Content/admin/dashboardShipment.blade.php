@@ -2,55 +2,7 @@
 
 @section('content')
 
-<!-- SIDEBAR -->
-<section id="sidebar">
-    <div class="sidebar-brand">
-        <h2>aw mart</h2>
-    </div>
-    
-    <ul class="side-menu top">
-        <li class="active">
-            <a href="#">
-                <i class='bx bxs-dashboard' ></i>
-                <span class="text">Dashbaord</span>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <i class='bx bxs-cart-add' ></i> <!-- Mengganti ikon menjadi keranjang belanja -->
-                <span class="text">Products</span>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <i class='bx bxs-truck' ></i> <!-- Mengganti ikon menjadi truk -->
-                <span class="text">Shipment</span>
-            </a>
-        </li>
-        <li>
-            <a href="#">
-                <i class='bx bxs-user' ></i> <!-- Mengganti ikon menjadi pengguna -->
-                <span class="text">Member</span>
-            </a>
-        </li>
-    
-    </ul>
-    <ul class="side-menu">
-        <li>
-            <a href="#">
-                <i class='bx bxs-cog' ></i>
-                <span class="text">Account</span>
-            </a>
-        </li>
-        <li>
-            <a href="#" class="logout">
-                <i class='bx bxs-log-out-circle' ></i>
-                <span class="text">Logout</span>
-            </a>
-        </li>
-    </ul>
-</section>
-<!-- SIDEBAR -->
+@extends('Component.sidebar')
 
 <!-- CONTENT -->
 <section id="content">
@@ -67,7 +19,7 @@
             <span class="num">8</span>
         </a>
         <a href="#" class="profile">
-            <img src="img/people.png">
+            <img src="/images/profile.jpg">
         </a>
     </nav>
     <!-- NAVBAR -->
